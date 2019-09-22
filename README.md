@@ -18,7 +18,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - GPU: Intel UHD 620
  - eGPU : Nvidia GeForce® MX150
  - RAM: 8GB DDR4 @ 2133MHz SDRAM (upgradable to 12GB)
- - Storage SSD : SSD Evo 120 GB (GUID Partition Table)
+ - Storage SSD : SSD 120 GB (GUID Partition Table)
  - Storage HDD: 1TB SATA @ 5400rpm (GUID Partition Table)
  - Audio: Realtek ALC256 HD Audio Controller
  - Wifi : Dual Band Wireless-AC 7265
