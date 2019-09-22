@@ -30,36 +30,42 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - Display Output: HDMI 
  - Camera : WebCam 1280 x 720
  - Battery : 4-Cell 3320 mAh 65Wh Lithium-ion Battery
- - BIOS: Ver. 1.14 (Acer).
+ - BIOS: Ver. 1.14 (Acer)
+ - OS : macOS Mojave 10.14.6  + Windows 10
 
 --------------------------------------------------------------------------------------------
 
 ### EFI Contains
  - Clover Bootloader binary, config.plist, drivers for uefi, themes, etc..
  - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Wifi, Ethernet, Battery, etc..
- - 3rd party kexts for working devices under Mac OS X 10.11.6 upto macOS Mojave 10.15.x
+ - 3rd party kexts for working devices under macOS Mojave 10.14.6
  
  --------------------------------------------------------------------------------------------
  
 ### What Worked
-- [x] QE/CI Graphics Of IGPU IHD 4400
-- [x] Restart, Sleep and Shutdown
-- [x] Wifi
-- [x] Internal Speaker, Headphone audio and Internal Mic
-- [x] Output Audio ALC282
-- [x] Brightness 
-- [x] FN + Brightness Button Up / Down
-- [x] HDMI Output
-- [x] HDMI Audio
+- [x] QE/CI Graphics Graphics Of IGPU UHD 620
+- [x] M2 NVMe Adata SX6000 Pro 120GB (disable by dsdt)
+- [x] OUTPUT HDMI + audio HDMI
+- [x] Audio Out internal and Headphone Out
+- [x] Audio work after Sleep
 - [x] Touchpad
-- [x] Keyboard
-- [x] All Port USB (USB 3.0 full speed)
-- [x] Bluetooh (Need boot to Windows first and reboot to mac)
+- [x] Keyboard 
+- [x] Brightness 
+- [x] Battery Indicator
+- [x] Null Ethernet Built-In VIA PATCH DSDT+NullEthernet.kext
+- [x] All USB Port full speed
+- [x] Bluetooth (Need boot to Windows first and reboot to mac)
+- [x] Restart, Sleep and Shutdown 
+- [x] Sleep and Wake with/Without LID Status
+- [x] Fungsi fn key + Key FN Brightness patch lewat SSDT
+- [x] Etc
 
 --------------------------------------------------------------------------------------------
 
 ### Not Worked / Bugs
-- [ ] NVIDIA GT820M (NVIDIA Optimus is not supported by Hackintosh)
+- [ ] NVIDIA Nvidia MX150 (NVIDIA Optimus is not supported by Hackintosh)
+- [ ] Wifi (Intel NGFF AC 7265 is not supported by Hackintosh)
+- [ ] Internal Mic and External Mic 
 - [ ] Etc
 
 --------------------------------------------------------------------------------------------
@@ -71,4 +77,4 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 4. To boot with Clover UEFI, you need to configure BIOS
 
 ### Credits
-[Apple](https://www.apple.com) | [Microsoft](https://www.microsoft.com/en-us/windows) | [Clover](https://sourceforge.net/projects/cloverefiboot) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Andres ZeroCross](https://github.com/andreszerocross) | [Badruzeus](https://github.com/badruzeus) | [InsanelyMac](https://www.insanelymac.com/forum), | [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>Other devs</b> who aren't mentioned.
+[Apple](https://www.apple.com) | [Microsoft](https://www.microsoft.com/en-us/windows) | [Clover](https://sourceforge.net/projects/cloverefiboot) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Badruzeus](https://github.com/badruzeus) | [InsanelyMac](https://www.insanelymac.com/forum), | [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>Other devs</b> who aren't mentioned.
