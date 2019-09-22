@@ -17,7 +17,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - Chipset: Intel® Express Chipset
  - GPU: Intel UHD 620
  - eGPU : Nvidia GeForce® MX150
- - RAM: 8GB DDR4 @ 2133MHz SDRAM(upgradable to 12GB)
+ - RAM: 8GB DDR4 @ 2133MHz SDRAM (upgradable to 12GB)
  - Storage SSD : SSD Evo 120 GB (GUID Partition Table)
  - Storage HDD: 1TB SATA @ 5400rpm (GUID Partition Table)
  - Audio: Realtek ALC256 HD Audio Controller
@@ -30,7 +30,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - Display Output: HDMI 
  - Camera : WebCam 1280 x 720
  - Battery : 4-Cell 3320 mAh 65Wh Lithium-ion Battery
- - BIOS: Ver. 1.06 (Acer).
+ - BIOS: Ver. 1.14 (Acer).
 
 --------------------------------------------------------------------------------------------
 
