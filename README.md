@@ -15,7 +15,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - Model: Acer Swift 3 SF314-54G-51ZK Notebook 2018
  - CPU: Intel Core i5-8250U Quad-core (4 Core™) @ 1.60GHz (8th Gen) 
  - Chipset: Intel® Express Chipset
- - GPU: Intel UHD 620
+ - GPU: Intel HD Graphics 620
  - eGPU : Nvidia GeForce® MX150
  - RAM: 8GB DDR4 @ 2133MHz SDRAM (upgradable to 12GB)
  - Storage SSD : SSD 120 GB (GUID Partition Table)
@@ -37,7 +37,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 
 ### EFI Contains
  - Clover Bootloader binary, config.plist, drivers for uefi, themes, etc..
- - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Wifi, Ethernet, Battery, etc..
+ - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Wifi, Battery, etc..
  - 3rd party kexts for working devices under macOS Mojave 10.14.6
  
  --------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 - [x] Keyboard 
 - [x] Brightness 
 - [x] Battery Indicator
-- [x] Null Ethernet Built-In VIA PATCH DSDT+NullEthernet.kext
+- [x] Null Ethernet Built-In VIA PATCH DSDT + NullEthernet.kext
 - [x] All USB Port full speed
 - [x] Bluetooth (Need boot to Windows first and reboot to mac)
 - [x] Restart, Sleep and Shutdown 
@@ -73,10 +73,10 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 ### Notes
 1. macOS versions used are Retail from Mac App Store, using createinstallmedia for USB Installer
 2. Platform Datas (SN, ROM, UUID) used here are ALL FAKE. So, you need to regenerate them.
-3. Don't use Patched DSDT-SSDT if you have different BIOS version (need to configure config.plist - ACPI section)
+3. Don't use Patched DSDT-SSDT if you have different BIOS version and use nvme ssd (need to configure config.plist - ACPI section)
 4. To boot with Clover UEFI, you need to configure BIOS
 
-* Im' use ssd nvme for windows 10 and disable nvme ssd because to hot temperature in operating hackintosh.
+* Im' use ssd nvme for windows 10 and disable nvme ssd because ssd hot temperature in operation hackintosh.
 
 ### Credits
-[Apple](https://www.apple.com) | [Microsoft](https://www.microsoft.com/en-us/windows) | [Clover](https://sourceforge.net/projects/cloverefiboot) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Badruzeus](https://github.com/badruzeus) | [InsanelyMac](https://www.insanelymac.com/forum), | [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>Other devs</b> who aren't mentioned.
+[Apple](https://www.apple.com) | [Microsoft](https://www.microsoft.com/en-us/windows) | [Clover](https://sourceforge.net/projects/cloverefiboot) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Badruzeus](https://github.com/badruzeus) | [Andres ZeroCross](https://github.com/andreszerocross) | [InsanelyMac](https://www.insanelymac.com/forum) | [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>Other devs</b> who aren't mentioned.
