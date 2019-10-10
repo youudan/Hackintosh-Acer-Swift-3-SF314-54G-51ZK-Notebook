@@ -77,7 +77,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 3. Don't use Patched DSDT-SSDT if you have different BIOS version and use nvme ssd (need to configure config.plist - ACPI section)
 4. To boot with Clover UEFI, you need to configure BIOS
 
-* Im' use ssd nvme for windows 10 and disable nvme ssd because ssd hot temperature in operation hackintosh.
+* Im' use ssd nvme for windows 10 and disable nvme ssd because temperature hot (unuse in hackintosh) in operation hackintosh.
 
 ### Credits
 [Apple](https://www.apple.com) | [Microsoft](https://www.microsoft.com/en-us/windows) | [Clover](https://sourceforge.net/projects/cloverefiboot) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Badruzeus](https://github.com/badruzeus) | [Andres ZeroCross](https://github.com/andreszerocross) | [InsanelyMac](https://www.insanelymac.com/forum) | [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>Other devs</b> who aren't mentioned.
