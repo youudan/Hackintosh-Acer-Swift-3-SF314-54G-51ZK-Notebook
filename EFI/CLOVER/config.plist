@@ -1147,7 +1147,7 @@
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
 		<data>
-		GmEw9WrV
+		383USCHq
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -1274,7 +1274,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028173104NJH4RJA</string>
+		<string>C02819104QXJH4R1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1304,9 +1304,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02X506WJHD5</string>
+		<string>C02WPDZAJHCD</string>
 		<key>SmUUID</key>
-		<string>404B5CA8-EE83-4643-BA63-DF53282C52FF</string>
+		<string>D26AE1AD-9500-4B2A-92A0-48E99C4821EA</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
