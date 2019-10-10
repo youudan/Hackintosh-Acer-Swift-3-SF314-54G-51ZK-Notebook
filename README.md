@@ -32,14 +32,14 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
  - Camera : WebCam 1280 x 720
  - Battery : 4-Cell 3320 mAh 65Wh Lithium-ion Battery
  - BIOS: Ver. 1.14 (Acer)
- - OS : macOS Mojave 10.14.6  + Windows 10
+ - OS : macOS Catalina 10.15  + Windows 10
 
 --------------------------------------------------------------------------------------------
 
 ### EFI Contains
  - Clover Bootloader binary, config.plist, drivers for uefi, themes, etc..
  - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Wifi, Battery, etc..
- - 3rd party kexts for working devices under macOS Mojave 10.14.6
+ - 3rd party kexts for working devices under macOS Catalina 10.15
  
  --------------------------------------------------------------------------------------------
  
@@ -58,7 +58,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 - [x] Bluetooth (Need boot to Windows first and reboot to mac)
 - [x] Restart, Sleep and Shutdown 
 - [x] Sleep and Wake with/Without LID Status
-- [x] Fungsi fn key + Key FN Brightness patch lewat SSDT
+- [x] Fn key + Key FN Brightness patch lewat SSDT
 - [x] Etc
 
 --------------------------------------------------------------------------------------------
