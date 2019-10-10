@@ -5,7 +5,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 - Windows 10
 
 
-<img src="/IMG/Mojave.png?raw=true" alt="macOS Mojave" align="center">
+<img src="/IMG/Catalina.png?raw=true" alt="macOS Mojave" align="center">
 
 --------------------------------------------------------------------------------------------
 
