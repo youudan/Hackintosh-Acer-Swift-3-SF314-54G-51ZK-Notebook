@@ -38,7 +38,7 @@ This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-5
 
 ### EFI Contains
  - Clover Bootloader binary, config.plist, drivers for uefi, themes, etc..
- - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Wifi, Battery, etc..
+ - Patched ACPI Tables (DSDT-SSDT) for Graphics, Audio, Battery, etc..
  - 3rd party kexts for working devices under macOS Catalina 10.15
  
  --------------------------------------------------------------------------------------------
