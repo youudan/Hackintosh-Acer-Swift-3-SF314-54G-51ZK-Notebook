@@ -1,6 +1,7 @@
 # Hackintosh Acer Swift 3 SF314-54G-51ZK Notebook
 This is my complete EFI folder to be used for hackintosh on Acer Swift 3 SF314-54G-51ZK Notebook with multibooting:
 - macOS Mojave 10.14.6
+- macOS Catalina 10.15.X
 - Windows 10
 
 
